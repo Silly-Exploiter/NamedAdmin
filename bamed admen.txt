@@ -17,7 +17,7 @@
  end
  
  -- Notification library
- local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Silly-Exploiter/NamedAdmin/main/Notify%20Fix%20(1).txt"))();
+ local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/FD2Team/archive/main/notificationtest"))();
  local Notify = Notification.Notify;
 
  Notify({
