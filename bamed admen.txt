@@ -17,7 +17,7 @@
 '       ` `-'`-'  '  `--' `-'  `-
                                  
                                  
-A basic custom build made over Nameless admin, with a few extra commands, some of them mobile oriented --]]
+A basic custom build made over Nameless admin, with a few extra commands, some of them mobile oriented there has been ABSOLUTELY no official authorization to use ANY of the loadstrings. :3 --]]
 
  -- Waits until game is loaded
  local game = game
@@ -33,8 +33,8 @@ A basic custom build made over Nameless admin, with a few extra commands, some o
  local Notify = Notification.Notify;
 
  Notify({
-		 Description = "now start chaossing all around the place!";
-		 Title = "It's Chaos time.";
+		 Description = "Stay silly!";
+		 Title = "LALALALA";
 		 Duration = 5;
 		 
 });
@@ -72,7 +72,7 @@ A basic custom build made over Nameless admin, with a few extra commands, some o
  }
  
  -- [[ Version ]] -- 
- currentversion = 1.13
+ currentversion = NAMED1.0
  
  --[[ VARIABLES ]]--
  PlaceId, JobId = game.PlaceId, game.JobId
@@ -15426,7 +15426,7 @@ end
  TextClickButton.Size = UDim2.new(0, 2, 0, 33)
  TextClickButton.Font = Enum.Font.SourceSansBold
  TextClickButton.Text = "Named Admin " .. currentversion .. ""
- TextClickButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ TextClickButton.TextColor3 = Color3.fromRGB(188, 173, 255)
  TextClickButton.TextSize = 20.000
  TextClickButton.TextWrapped = true
  
@@ -15443,7 +15443,7 @@ end
 	 textclickbutton:TweenSize(UDim2.new(0, 32, 0, 33), "Out", "Quint",1,true)
 	 textclickbutton:TweenPosition(UDim2.new(0.48909232, 0, 0, 0), "Out", "Quint",1,true)
 	 wait(0.4)
-	 textclickbutton.Text = "NA"
+	 textclickbutton.Text = "N1"
 	 textclickbutton.Active = true
  gui.draggable(textclickbutton)
  end
