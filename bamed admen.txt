@@ -1,11 +1,23 @@
 --[[
-╭━╮╱╭╮╱╱╱╱╱╱╱╱╱╱╭╮╭━━━╮╱╭╮            |
-┃┃╰╮┃┃╱╱╱╱╱╱╱╱╱╱┃┃┃╭━╮┃╱┃┃            |
-┃╭╮╰╯┣━━┳╮╭┳━━┳━╯┃┃┃╱┃┣━╯┣╮╭┳┳━╮     | Welcome to the Named Admin source, feel free to take a look around.
-┃┃╰╮┃┃╭╮┃╰╯┃┃━┫╭╮┃┃╰━╯┃╭╮┃╰╯┣┫╭╮╮    | Enjoy.
-┃┃╱┃┃┃╭╮┃┃┃┃┃━┫╰╯┃┃╭━╮┃╰╯┃┃┃┃┃┃┃┃    |
-╰╯╱╰━┻╯╰┻┻┻┻━━┻━━╯╰╯╱╰┻━━┻┻┻┻┻╯╰╯    |
---]]
+                                 
+                                 
+.   .                       .    
+|\  |                       |    
+| \ | .-.  .--.--.  .-.  .-.|    
+|  \|(   ) |  |  | (.-' (   |    
+'   ' `-'`-'  '  `- `--' `-'`-   
+                                 
+                                 
+                                 
+                                 
+    .        .                   
+   / \       |           o       
+  /___\   .-.| .--.--.   .  .--. 
+ /     \ (   | |  |  |   |  |  | 
+'       ` `-'`-'  '  `--' `-'  `-
+                                 
+                                 
+A basic custom build made over Nameless admin, with a few extra commands, some of them mobile oriented --]]
 
  -- Waits until game is loaded
  local game = game
@@ -13079,9 +13091,9 @@ end)
  publicItalics = true
  --customize private logs
  privateProperties = {
-	 Color = Color3.fromRGB(0,255,255); 
+	 Color = Color3.fromRGB(72,0,255); 
 	 Font = Enum.Font.SourceSansBold;
-	 TextSize = 18;
+	 TextSize = 15;
  }
  --////////////////////////////////////////////////////////////////
  local StarterGui = game:GetService("StarterGui")
@@ -13135,7 +13147,7 @@ end)
  end)
 
 
- cmd.add({"bhop"}, {"bhop", "bhop bhop bhop bhop bhop bhop bhop bla bla bla idk what im saying"}, function()
+ cmd.add({"bhop"}, {"bhop", "bnunny hovp"}, function()
 	 -- [[ bhop functions ]] -- 
 	 local player
 	 local character
@@ -13940,7 +13952,7 @@ end)
 	 wait();
 	 
 	 Notify({
-	 Description = "Named Admin has detected you using mobile you now have a invisible button click it to enable / disable invisibility";
+	 Description = "You little mobile guy here goes a button for you";
 	 Title = "Named Admin";
 	 Duration = 7;
 	 });
@@ -14029,7 +14041,7 @@ end)
  wait();
  
  Notify({
- Description = "Chat spy enabled";
+ Description = "Chat spy.. ON!";
  Title = "Named Admin";
  Duration = 5;
  
@@ -14045,9 +14057,9 @@ end)
  publicItalics = true
  --customize private logs
  privateProperties = {
-	 Color = Color3.fromRGB(0,255,255); 
+	 Color = Color3.fromRGB(72,0,255); 
 	 Font = Enum.Font.SourceSansBold;
-	 TextSize = 18;
+	 TextSize = 14;
  }
  --////////////////////////////////////////////////////////////////
  local StarterGui = game:GetService("StarterGui")
@@ -15444,7 +15456,5 @@ end
  end)
 
  --[[
-	End of the source code.
-	Join the discord for updates or give command ideas, that could be added.
-	https://discord.gg/9Dn6Td5xzz
+	ababababba :3
 --]]
