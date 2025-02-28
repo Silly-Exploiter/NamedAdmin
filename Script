@@ -33,8 +33,8 @@ A basic custom build made over Nameless admin, with a few extra commands, some o
  local Notify = Notification.Notify;
 
  Notify({
-		 Description = "now start chaossing all around the place!";
-		 Title = "It's Chaos time.";
+		 Description = "Stay silly";
+		 Title = "LALALALA";
 		 Duration = 5;
 		 
 });
